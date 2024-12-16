@@ -1,52 +1,61 @@
-Mythical Pet Universe (MPU) - README
+# Mythical Pet Universe (MPU)
 
-Getting Started
+**Mythical Pet Universe (MPU)** is an exciting virtual pet simulator where players can adopt, care for, and play mini-games with mythical pets like dragons, phoenixes, and more. The game combines strategic management with fun mini-games, allowing players to explore a fantastical world while maintaining their pets' health and happiness.
 
-To run the Mythical Pet Universe game, follow these simple steps:
+---
 
+## Getting Started
 
+### Prerequisites
+To run the Mythical Pet Universe game, ensure the following requirements are met:
+- **Java Version**: Java 11 or above.
+- **JavaFX**: Installed and configured in your IDE or build environment.
 
-File Organization
+### File Organization
+- Place all class files (e.g., `PetManager.java`, `GameEngine.java`, `ScreenManager.java`, etc.) inside the `src` folder.
+- Ensure the folder structure matches the project package definitions.
 
+---
 
-All class files (e.g., PetManager.java, GameEngine.java, ScreenManager.java, etc.) should go in the src folder.
+## Running the Game
 
+1. **Set Up JavaFX**:
+   - Add the JavaFX libraries to your project's classpath.
+   - If you're using an IDE like IntelliJ or Eclipse, configure the JavaFX SDK path in the project settings.
 
+2. **Compile and Run**:
+   - Compile the code, ensuring `Main.java` is included.
+   - Run `Main.java` to launch the game.
+   - The game will start with the **Main Menu**, where you can choose your mythical pet and begin your adventure.
 
-Running the Game
+---
 
-Ensure you have JavaFX set up in your IDE or build environment. JavaFX is required to run the graphical interface.
+## Gameplay Features
 
-Compile and run Main.java. This will launch the start menu of Mythical Pet Universe.
+### Adopt Mythical Pets
+- Choose from a variety of exotic mythical pets, including dragons, unicorns, and phoenixes.
+- Customize your pet's name and personality traits.
 
+### Manage Your Pet
+- Maintain your pet's health, happiness, and energy levels.
+- Earn in-game currency to upgrade your pet's accessories and habitat.
 
+### Play Mini-Games
+- Engage in thrilling mini-games like:
+  - **FireControlSimulator**: Test your skills in controlling fire elements.
+  - **SkydivingGame**: Soar through the skies and collect rewards.
+- Mini-games impact your pet's health, mood, and resources.
 
+---
 
+## Dependencies
 
-Dependencies
+### JavaFX
+Mythical Pet Universe relies on JavaFX for its graphical interface. Ensure that:
+- JavaFX SDK is downloaded and configured.
+- JavaFX libraries are added to your classpath.
 
-Make sure that all JavaFX libraries are added to your classpath.
-
-If you use an IDE (like IntelliJ or Eclipse), set the JavaFX SDK path in your project settings.
-
-
-
-
-Usage Instructions
-
-Use the GUI to adopt pets, manage them, and play mini-games (e.g., FireControlSimulator and SkydivingGame).
-
-Health and in-game currency are updated based on your actions in the mini-games.
-
-
-
-
-
-Troubleshooting
-
-If the game doesn’t start, make sure all files are correctly placed in the src folder and the JavaFX setup is configured.
-
-Java version 11 or above is recommended.
-
-Enjoy taking care of mythical pets and playing exciting mini-games!
-
+### IDE Setup
+For **IntelliJ** or **Eclipse**:
+1. Set the JavaFX SDK path in your project settings.
+2. Use the appropriate `VM options` for running JavaFX applications:
