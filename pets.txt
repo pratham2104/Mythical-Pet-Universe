@@ -1,0 +1,5 @@
+Kraken,100,5,Seabed,Water,50
+Dinosaur,80,3,Jurassic Habitat,Grass,100
+Phoenix,150,7,Volcanic Mountains,Wind,150
+Griffin,120,6,Mythical Forest,Earth,200
+Dragon,200,8,Cave of Wonders,Fire,300
